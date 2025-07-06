@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Tip Calculator</h2>
+        <div class="content">
+        <label for="bill-amt" style="position: relative; left: -29.8%;" class="one">Bill Amount:</label><br>
+        <input type="text" id="bill-amt" placeholder="Enter amount...">
+        <br>
+        <label for="guests" class="one">No. of Guests:</label><br>
+        <input type="text" id="guests" placeholder="Enter No..."><br>
+        <h4 class="two">Service Quality</h4>
+        <br>
+        <select  id="options">
+            <option disabled selected value="0">Choose...</option>
+            <option value="0.3">30% - Outstanding</option>
+            <option value="0.2">20% - Good</option>
+            <option value="0.15">15% - It was OK</option>
+            <option value="0.1">10% - Bad</option>
+            <option value="0.05">5% - Terrible</option>
+        </select>
+        <br>
+        <button id="btn">Calculate</button>
+    </div>
+    <button id="chec"></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
